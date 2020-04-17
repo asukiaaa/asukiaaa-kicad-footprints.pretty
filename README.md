@@ -1,6 +1,6 @@
 # my-kicad-footprints
 
-Footprints to use my projects.
+Footprints to use on my projects.
 
 # License
 
