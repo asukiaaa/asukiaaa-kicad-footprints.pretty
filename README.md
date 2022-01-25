@@ -1,4 +1,4 @@
-# my-kicad-footprints
+# asukiaaa-kicad-footprints
 
 Footprints to use on my projects.
 
