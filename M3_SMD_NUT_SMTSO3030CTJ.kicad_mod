@@ -1,0 +1,90 @@
+(footprint "M3_SMD_NUT_SMTSO3030CTJ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1016 -3.8608 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a46990db-400f-4760-81db-075bed0226bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M3_SMD_NUT_SMTSO3030CTJ"
+		(at 0.0508 3.7592 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "115ed311-21f5-4160-ab6f-66f57bcef342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9f0fbed-ad31-4f5f-a4e9-dbf2e0b7b2ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "698907c6-dc84-47dc-9762-f38e6e153b83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61101979-c1ae-40d9-9101-d8b20d1612a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at -0.0508 5.3848 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d6f3e40-be7c-480a-af42-c0dc8965bb76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 4.22)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19651b2b-ae91-4a55-a211-885a04cc8e89")
+	)
+)
