@@ -37,7 +37,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://akizukidenshi.com/catalog/g/g106125/"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
