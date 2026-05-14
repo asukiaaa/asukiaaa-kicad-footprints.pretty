@@ -1,0 +1,157 @@
+(footprint "Connector_1747996-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.1468 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "85442035-8b73-45b1-b6f3-f6c79ad34a1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Connector_1747996-1"
+		(at 0 6.2484 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "375ad186-022d-4059-91b5-3362b6a42c66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1747996&DocType=Customer+Drawing&DocLang=English&PartCntxt=1747996-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "393a850f-86c0-4779-8188-d714ea74a940")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae593e21-a2d7-4327-b615-73187067f61c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -5.4)
+		(end -3 -3.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b804c6c-d0da-45d0-a4ac-49c41cc3caa9")
+	)
+	(fp_line
+		(start -3 -3.5)
+		(end 3 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0fd0bf8-05a0-4b80-a951-d09d43b80203")
+	)
+	(fp_line
+		(start 3 -3.5)
+		(end 3 -5.3848)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d93fb21-e2f9-4ef1-8749-7cc367766a90")
+	)
+	(fp_rect
+		(start -9.9 -5.4)
+		(end 9.9 5.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fa8a110d-da85-4c2c-b9af-c197e359a577")
+	)
+	(fp_rect
+		(start -9.825 -5.35)
+		(end 9.825 5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "14af6e68-5a7a-4a41-8fc4-0159902894b5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.7484 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aa9d1714-b3df-4450-b8f9-cba3d081f1f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -11.2 -2.8)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "bc1aeb11-bd28-40db-924e-812196802aa1")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.2 1.9)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f61cb8fb-561c-4dd0-a424-8e4a100772f5")
+	)
+	(pad "1" thru_hole roundrect
+		(at -6.2 0)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.07142857143)
+		(solder_mask_margin 0.102)
+		(uuid "235bba37-163b-404b-a2bc-a4e1e75fdb2d")
+	)
+	(pad "2" thru_hole circle
+		(at 6.2 0)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a11bc5af-01d6-4a17-9f2d-dc7c8b1b2306")
+	)
+	(embedded_fonts no)
+)
