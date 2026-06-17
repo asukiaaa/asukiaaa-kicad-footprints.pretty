@@ -1,4 +1,4 @@
-(footprint "Diode_HSOG-1"
+(footprint "MOSFET_HSOG-1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Diode_HSOG-1"
+	(property "Value" "MOSFET_HSOG-1"
 		(at 0.2159 -7.2136 0)
 		(layer "F.Fab")
 		(uuid "5b0c7dec-cd92-4af9-ad32-bef25e307967")
@@ -50,7 +50,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -5.1 -6)
 		(end -5.1 6)
