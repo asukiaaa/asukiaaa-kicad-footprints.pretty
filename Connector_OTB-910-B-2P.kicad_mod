@@ -1,0 +1,128 @@
+(footprint "Connector_OTB-910-B-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11.2776 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7ebea54b-ded5-4985-874d-587801db242d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Connector_OTB-910-B-2P"
+		(at 0 11.336351 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "def944d2-f82f-4275-9d8b-136db1451ef9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.osada-terminal.co.jp/sankouzu/OTB-910-B-xP.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "473b892a-6189-49e1-aeb7-db9356817cee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa7ea04e-cad2-454a-9452-f64fd4f110ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -17.7 -10.5)
+		(end 17.7 10.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7bc2a0d1-8a74-41f4-b538-698014019c20")
+	)
+	(fp_rect
+		(start -17.8 -10.6)
+		(end 17.8 10.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e4576a35-df2d-4b08-83ff-c6ea320a8612")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 12.836351 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "919e87e1-0601-462c-9c27-74a14ba8c404")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -8 -4.5)
+		(size 7 3)
+		(drill oval 5.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "fe345c8f-4918-4bc6-bedf-e555cb1db268")
+	)
+	(pad "1" thru_hole roundrect
+		(at -8 4.5)
+		(size 7 3)
+		(drill oval 5.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "bce6c89c-a7ca-4870-b8c0-2f18aa693fea")
+	)
+	(pad "2" thru_hole roundrect
+		(at 8 -4.5)
+		(size 7 3)
+		(drill oval 5.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "cbef3ad1-8da0-4ce4-917f-af55eb06dff7")
+	)
+	(pad "2" thru_hole roundrect
+		(at 8 4.5)
+		(size 7 3)
+		(drill oval 5.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "9c9e2e3c-5bec-4728-98a8-482d1be0a8cc")
+	)
+	(embedded_fonts no)
+)
