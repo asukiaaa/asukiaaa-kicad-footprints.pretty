@@ -1,0 +1,84 @@
+(footprint "holes_for_cable_mount_3x6mm_between_4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "47d6b40a-3152-464d-9d54-f1994b262aa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "holes_for_cable_mount_3x6mm_between_4mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05b50f44-638e-4c7d-8cf0-b572c391f892")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28fd5a67-9a7e-4840-a702-7180085c4f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1a39307-8025-42ee-b04a-faee60901913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3b8319f2-ab99-4147-9e83-4484a7570be8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 -3.5)
+		(size 6 3)
+		(drill oval 6 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ac9a6528-d435-4c32-b5de-097a5494e792")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 3.5)
+		(size 6 3)
+		(drill oval 6 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "63551622-d10f-4d96-b4be-ac87ea16fae5")
+	)
+	(embedded_fonts no)
+)
