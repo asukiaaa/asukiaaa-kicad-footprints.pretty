@@ -1,0 +1,303 @@
+(footprint "DCDC_cosel_CHS60"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "COSEL CHS60 DC-DC Converter footprint with keepout zones")
+	(tags "converter dc-dc brick chs60 keepout")
+	(property "Reference" "REF**"
+		(at 0 -13 0)
+		(layer "F.SilkS")
+		(uuid "5c018f5d-b1e1-4fee-b467-67f039f2196e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CHS60"
+		(at 0 13 0)
+		(layer "F.Fab")
+		(uuid "fdb6e1cd-9ac2-46df-bdaf-83ff7e7c84f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e891ad5-b6af-4b73-a6f9-448354c6851b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69caa7e6-dc3a-4375-9a91-bc6af920cf23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -9.525 -11.68)
+		(end 9.525 -11.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fd0669a-8f08-4cb9-a82d-4e3252abc59f")
+	)
+	(fp_line
+		(start -9.525 11.68)
+		(end -9.525 -11.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbbe6209-d798-4650-a588-a61e6fbc9e61")
+	)
+	(fp_line
+		(start 9.525 -11.68)
+		(end 9.525 11.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c396c9e-5be0-44b7-a7e8-3a07db2ba693")
+	)
+	(fp_line
+		(start 9.525 11.68)
+		(end -9.525 11.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ae064fc-86e2-411e-b427-d66ffd7b0e3f")
+	)
+	(fp_line
+		(start -10.125 -12.28)
+		(end 10.125 -12.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23f8c14e-7b43-4e62-87ba-93aeba1f3c71")
+	)
+	(fp_line
+		(start -10.125 12.28)
+		(end -10.125 -12.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc3465a3-650f-4180-8e2a-aaa41f48c219")
+	)
+	(fp_line
+		(start 10.125 -12.28)
+		(end 10.125 12.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01210e8a-b427-4b51-941d-76aa7f926c31")
+	)
+	(fp_line
+		(start 10.125 12.28)
+		(end -10.125 12.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a33c0421-7b3c-460d-9e4d-9ffa082cb933")
+	)
+	(fp_line
+		(start -9.625 -11.78)
+		(end 9.625 -11.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d48fba3-7b1c-4fd1-ad3e-a35ea9a91655")
+	)
+	(fp_line
+		(start -9.625 11.78)
+		(end -9.625 -11.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f2c19e4-9fe0-4c24-bb65-11308ac60af1")
+	)
+	(fp_line
+		(start 9.625 -11.78)
+		(end 9.625 11.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b8201cf-0272-4a4f-ab7c-ee76f2302f9c")
+	)
+	(fp_line
+		(start 9.625 11.78)
+		(end -9.625 11.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a8f4618-d0e6-478e-8016-83314ae7c88b")
+	)
+	(pad "1" thru_hole circle
+		(at -6.82 7.62)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92bbec88-6fe1-4b4a-916a-8d975838570d")
+	)
+	(pad "2" thru_hole circle
+		(at -6.82 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c664196a-f549-48c1-9319-ab4586ca5eb9")
+	)
+	(pad "3" thru_hole circle
+		(at -6.82 -7.62)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85e66670-2760-46ea-bfc4-9b6141bbe3c7")
+	)
+	(pad "4" thru_hole circle
+		(at 6.82 7.62)
+		(size 3.2 3.2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d30a1ebb-4bf0-41bc-9fcb-e587d30bc665")
+	)
+	(pad "5" thru_hole circle
+		(at 6.82 3.81)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66ddc63c-c889-4f87-a8fa-d0c98ecbc945")
+	)
+	(pad "6" thru_hole circle
+		(at 6.82 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b1d48d4-050d-4d6a-a5ec-abb49f4ee285")
+	)
+	(pad "7" thru_hole circle
+		(at 6.82 -3.81)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49180b75-5cd0-44c6-8555-ab257a1792e6")
+	)
+	(pad "8" thru_hole circle
+		(at 6.82 -7.62)
+		(size 3.2 3.2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd4146dd-1222-4ae1-be0b-386618e164c6")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "c67cbbda-c92a-4e47-84ee-38068b5e9649")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4.82 5.38) (xy 5.18 5.38) (xy 5.18 11.68) (xy -4.82 11.68)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "c67cbbda-c92a-4e47-84ee-38068b5e9648")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.18 -6.62) (xy 5.18 -6.62) (xy 5.18 -11.68) (xy 0.18 -11.68)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
