@@ -1,0 +1,184 @@
+(footprint "JST_XMP_BH02B-XMSK_1x02_P2.50mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST XMP series board post BH02B-XMSK (mates with housing XMP-02V), 1x02, pitch 2.5mm, vertical, through hole")
+	(tags "JST XMP XMP-02V BH02B-XMSK 2.5mm vertical")
+	(property "Reference" "REF**"
+		(at 1.25 -6 0)
+		(layer "F.SilkS")
+		(uuid "7a18b6bf-7c94-437d-9863-8e6ce5f6cd6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XMP-02V_BH02B-XMSK"
+		(at 1.25 6 0)
+		(layer "F.Fab")
+		(uuid "dc1a87db-cbb2-449d-9f50-1e871fe4f1e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd524b62-5a0e-41c6-b886-d941f8045acd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "JST XMP 2-pin board post, mates with XMP-02V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beb30277-8ceb-4d26-aabb-aa920b98dd06")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.7 -1)
+		(end -3.7 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2af0d622-8c7d-4154-9fc9-317b123390fa")
+	)
+	(fp_line
+		(start -1.7 -4.57)
+		(end -1.7 -3.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad28416a-36ad-44ea-b074-81a1715c93ed")
+	)
+	(fp_line
+		(start -1.7 -3.76)
+		(end 3.29 -3.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "284448d0-6c76-445a-bc6d-1ddcac53752a")
+	)
+	(fp_rect
+		(start -3.32 -4.57)
+		(end 5.82 4.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "29efc311-f91d-4567-a28a-53efa1e83cb2")
+	)
+	(fp_rect
+		(start -3.7 -4.95)
+		(end 6.2 4.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fcb56941-b070-495a-9ac8-58f5c8fff115")
+	)
+	(fp_line
+		(start -3.2 -0.8)
+		(end -2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36285f84-ff9f-4d67-aa4c-e5d1ddf67aaa")
+	)
+	(fp_line
+		(start -2.4 0)
+		(end -3.2 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de64d4fe-3088-48f9-a4af-eef0ea128ea8")
+	)
+	(fp_rect
+		(start -3.2 -4.45)
+		(end 5.7 4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d1f9855a-f766-42d8-a638-77b2a766ef56")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 2.5 0)
+		(layer "F.Fab")
+		(uuid "7eb33acd-8e17-48d8-aba8-6d36fc3c4ffd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 4.05 -3.15)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "48284ede-73e3-4520-8326-a0a8166e2fbc")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6bde1654-2570-4baf-898e-27f5cc7fa89c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f3a6ee9-ce83-4a9d-bef7-fb437cad669a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XMP_BH02B-XMSK_1x02_P2.50mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
